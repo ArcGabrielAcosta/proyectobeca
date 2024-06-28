@@ -1,0 +1,86 @@
+header{
+    background-color: #8DFFCA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff
+}
+header #logo{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+header #logo a{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;   
+}
+header #logo h1{
+    font-family: serif;
+}
+header #search{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff
+}
+header #search label{
+    display: flex;
+    margin-right: 10px;
+}
+header #search input{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+header #search input::placeholder{
+    font-size: 15px;
+}
+header #search input::before{
+    content: url(/img/search.png);
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+nav #login{
+    padding: 5px;
+    background-color: #FF916F;
+}

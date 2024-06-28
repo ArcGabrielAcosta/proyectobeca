@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>healthhub/login</title>
+</head>
+<body>
+    <header>
+        <img src="/img/hospital.png" alt="Logo">
+    </header>
+    <main>
+        <section>
+            <h1>Bienvenido</h1>
+            <h2>Complete sus datos de acceso para ingresar</h2>
+        </section>
+        <section>
+            <form action="/login">
+                <label for="identidad">N° de Documento</label>
+                <input type="text" name="identidad">
+                <label for="password">Contraseña</label>
+                <input type="text" name="password">
+                <button type="submit">Ingresar</button>
+                <p>otras opciones</p>
+                <button type="submit"><a href="/html/index.html">Registrarse</a></button>
+                <a href="/html/passwordRecovery.html">¿Olvidó su contraseña?</a>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
